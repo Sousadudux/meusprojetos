@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1769113402 source:c:\users\duh bigode\downloads\projetos de verdade\formulasmatematicas\formulasmatematicas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+
