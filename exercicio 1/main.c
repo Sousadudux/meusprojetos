@@ -5,8 +5,8 @@
 
 int main() 
     { 
-    for (int i = 3; i <= 15; i += 3) {
-        printf(" = %d\n", i);    
+    for (int i = 1; i <= 5; i++) {
+        printf(" = %d\n", i*3);    
         
     }   
     return 0;
