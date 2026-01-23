@@ -31,8 +31,7 @@ int main()
 {
 char x[5];
 float n,n2;
-
-resultado;
+double resultado;
 
 printf("--Ola bem vindo, qual operacao matematica deseja usar?\n\np => Potenciacao\n\na => Adicao\n\ns => Subtracao\n\nd => Divisao\n\nm => Multiplicacao\n\n");
 scanf("%s",x);
