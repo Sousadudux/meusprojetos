@@ -6,13 +6,13 @@
 int main()
 {
 int numeros[3],numeroscomparados;
-    for (int i = 0; i < 3; i+2)
+    for (int i = 0; i < 3; i++)
     {
         printf("numero %i\n",i);
         scanf("%i",&numeros[i]);
 
     }
-    for (int i = 0; i < 3; i+2) {
+    for (int i = 0; i < 3; i++) {
             if (i==0) {
                 numeroscomparados=numeros[i];
             }
