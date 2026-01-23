@@ -19,8 +19,9 @@ int main()
 
 
 {
-    float formula,a,b,c,n1,n2,n3,n4;
+    float formula,a,b,c;
     float resultado,resultado2,x,x2;
+    int aa,bb,cc; 
 
 
 
@@ -31,53 +32,31 @@ int main()
     {
 
         printf("\nEsta e a sua equacao de segundo grau (ax,2) + bx + c = 0)\n\nSubstitua as incognitas no espaco abaixo\n\na=");
-        scanf("%f",&a);
+        scanf("%d",&aa);
         printf("\nb=");
-        scanf("%f",&b);
+        scanf("%d",&bb);
         printf("\nc=");
-        scanf("%f",&c);
+        scanf("%d",&cc);
 
-        if (delta(b,a,c)>0)
+        if (delta(bb,aa,cc)>0)
         {
-            x= (-b-delta(b,a,c))/2*a ;
-            printf("\nresultado= %f\n",x);
-            x2= (-b+delta(b,a,c))/2*a ;
-            printf("\nresultado= %f\n",x2);
+            x= (-bb-delta(bb,aa,cc))/2*aa ;
+            printf("\nresultado= %.2f\n",x);
+            x2= (-bb+delta(bb,aa,cc))/2*aa ;
+            printf("\nresultado= %.2f\n",x2);
         }
-        if (delta(b,a,c)==0)
-        {
-            x= (-b-delta(b,a,c))/2*a ;
+        if (delta(bb,aa,cc)==0)
+          {
+            x= (-bb-delta(bb,aa,cc))/2*aa ;
             printf("\nresultado= %f\n",x);
-        }
+         }
 
         else
         {
             printf("O resultado sera indefinido!!!!!!!");
 
-        }
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
     return 0;
 }
 
