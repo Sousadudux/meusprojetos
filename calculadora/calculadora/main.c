@@ -32,10 +32,10 @@ int main()
 char x[5];
 float n,n2;
 
-double resultado;
+resultado;
 
 printf("--Ola bem vindo, qual operacao matematica deseja usar?\n\np => Potenciacao\n\na => Adicao\n\ns => Subtracao\n\nd => Divisao\n\nm => Multiplicacao\n\n");
-scanf("%s",&x);
+scanf("%s",x);
 
 if (strcmp(x,"p")==0) {
 
@@ -44,8 +44,8 @@ scanf("%f",&n);
 printf("\n--E qual o expoente?\n\n==");
 scanf("%f",&n2);
 
-double resultado= potencia(n,n2);
-printf("\nresultado=%f\n",potencia);
+resultado= potencia(n,n2);
+printf("\nresultado=%f\n",resultado);
 printf("\n--Calculo concluido, agradecemos a preferencia\n");
 }
 
