@@ -13,7 +13,7 @@ scanf("%d", &num2);
 
      for (int i = num1; i <= num2; i++) {
          
-        if (i % 2 == 0) {
+        if (i % 2 &&== 0) {
             soma += i;
         }
              
@@ -23,7 +23,6 @@ scanf("%d", &num2);
      }
     }
         printf("A soma dos numeros pares entre %d e %d e: %d\n", num1, num2, soma);
-
 
         printf("A multiplicacao dos numeros impares entre %d e %d e: %d\n", num1, num2, multi);
 
